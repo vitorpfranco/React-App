@@ -5,6 +5,7 @@ import NavBar from './Components/layout/NavBar';
 import About from './Components/pages/About';
 import Contact from './Components/pages/Contact';
 import Home from './Components/pages/Home';
+import NewProject from './Components/pages/NewProject';
 import Projects from './Components/pages/Projects';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
     <Route path="/sobre" element={<About/>}/>
     <Route path="/contato" element={<Contact/>}/>
     <Route path="/projetos" element={<Projects/>}/>
+    <Route path="/addprojeto" element={<NewProject/>}/>
   </Routes>
   </Container>
 <Footer/>
