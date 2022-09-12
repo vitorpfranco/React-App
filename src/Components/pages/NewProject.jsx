@@ -4,7 +4,7 @@ export default function NewProject(){
     return(
         <div className={styles.newproject_container}>
         <h1>Criar Projeto</h1>
-        <ProjectForm></ProjectForm>
+        <ProjectForm btnText="Criar Projeto"></ProjectForm>
         </div>
     )
 }
